@@ -10,14 +10,11 @@ export default {
 </script>
 
 <template>
+  <router-view />
+  <router-link to="/">Home</router-link>
+  <router-link to="/about">About</router-link>
   <div class="container mx-auto py-10">
-    <div class="space-x-5">
-      <appbutton>primary </appbutton>
-      <appbutton>secondary</appbutton>
-      <appbutton>Warning</appbutton>
-      <appbutton>info</appbutton>
-      <appbutton>success</appbutton>
-    </div>
+
 
   </div>
 </template>
