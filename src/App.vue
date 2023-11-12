@@ -1,25 +1,24 @@
-
-
 <script>
-<<<<<<< HEAD
 import Button from "./ui/button/Button.vue";
+import Header from "./components/Header/Header.vue";
+
 export default {
   components: {
     appbutton: Button,
+    appHeader: Header,
   },
 };
-=======
-import Header from "./components/Header/Header.vue"
-export default {
-  components: {
-    appHeader: Header
-  }
-}
->>>>>>> 1d5eaf33041b8089182dc2465a9ca63aa43dd17f
+// import Header from "./components/Header/Header.vue"
+// export default {
+//   components: {
+//     appHeader: Header
+//   }
+// }
 </script>
 
 <template>
-  <appHeader/>
+  <appHeader />
+  <!-- <appbutton/> -->
   <!-- <router-view />
   <router-link to="/">Home</router-link>
   <router-link to="/about">About</router-link>
@@ -37,5 +36,4 @@ export default {
 
 
   </div> -->
->>>>>>> 1d5eaf33041b8089182dc2465a9ca63aa43dd17f
 </template>
