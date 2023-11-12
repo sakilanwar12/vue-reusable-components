@@ -1,12 +1,12 @@
 <!-- https://www.youtube.com/watch?v=_CdLj6ExjX0&list=PLC3y8-rFHvwgeQIfSDtEGVvvSEPDkL_1f&index=8 -->
 
 <script>
-import Button from './ui/button/Button.vue';
+import Button from "./ui/button/Button.vue";
 export default {
   components: {
-    appbutton: Button
-  }
-}
+    appbutton: Button,
+  },
+};
 </script>
 
 <template>
@@ -18,6 +18,5 @@ export default {
       <appbutton>info</appbutton>
       <appbutton>success</appbutton>
     </div>
-
   </div>
 </template>
