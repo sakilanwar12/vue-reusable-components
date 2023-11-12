@@ -122,6 +122,18 @@
   resolved "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz"
   integrity sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==
 
+"@iconify/types@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/@iconify/types/-/types-2.0.0.tgz"
+  integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
+
+"@iconify/vue@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/@iconify/vue/-/vue-4.1.1.tgz"
+  integrity sha512-RL85Bm/DAe8y6rT6pux7D2FJSiUEM/TPfyK7GrbAOfTSwrhvwJW+S5yijdGcmtXouA8MtuH9C7l4hiSE4mLMjg==
+  dependencies:
+    "@iconify/types" "^2.0.0"
+
 "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
   resolved "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz"
@@ -175,6 +187,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@types/web-bluetooth@^0.0.18":
+  version "0.0.18"
+  resolved "https://registry.npmjs.org/@types/web-bluetooth/-/web-bluetooth-0.0.18.tgz"
+  integrity sha512-v/ZHEj9xh82usl8LMR3GarzFY1IrbXJw5L4QfQhokjRV91q+SelFqxQWSep1ucXEZ22+dSTwLFkXeur25sPIbw==
+
 "@vitejs/plugin-vue@^4.2.3":
   version "4.3.4"
   resolved "https://registry.npmjs.org/@vitejs/plugin-vue/-/plugin-vue-4.3.4.tgz"
@@ -221,6 +238,11 @@
   dependencies:
     "@vue/compiler-dom" "3.3.4"
     "@vue/shared" "3.3.4"
+
+"@vue/devtools-api@^6.5.0":
+  version "6.5.1"
+  resolved "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.5.1.tgz"
+  integrity sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==
 
 "@vue/reactivity-transform@3.3.4":
   version "3.3.4"
@@ -269,6 +291,28 @@
   version "3.3.4"
   resolved "https://registry.npmjs.org/@vue/shared/-/shared-3.3.4.tgz"
   integrity sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==
+
+"@vueuse/core@^10.1.2":
+  version "10.5.0"
+  resolved "https://registry.npmjs.org/@vueuse/core/-/core-10.5.0.tgz"
+  integrity sha512-z/tI2eSvxwLRjOhDm0h/SXAjNm8N5ld6/SC/JQs6o6kpJ6Ya50LnEL8g5hoYu005i28L0zqB5L5yAl8Jl26K3A==
+  dependencies:
+    "@types/web-bluetooth" "^0.0.18"
+    "@vueuse/metadata" "10.5.0"
+    "@vueuse/shared" "10.5.0"
+    vue-demi ">=0.14.6"
+
+"@vueuse/metadata@10.5.0":
+  version "10.5.0"
+  resolved "https://registry.npmjs.org/@vueuse/metadata/-/metadata-10.5.0.tgz"
+  integrity sha512-fEbElR+MaIYyCkeM0SzWkdoMtOpIwO72x8WsZHRE7IggiOlILttqttM69AS13nrDxosnDBYdyy3C5mR1LCxHsw==
+
+"@vueuse/shared@10.5.0":
+  version "10.5.0"
+  resolved "https://registry.npmjs.org/@vueuse/shared/-/shared-10.5.0.tgz"
+  integrity sha512-18iyxbbHYLst9MqU1X1QNdMHIjks6wC7XTVf0KNOv5es/Ms6gjVFCAAWTVP2JStuGqydg3DT+ExpFORUEi9yhg==
+  dependencies:
+    vue-demi ">=0.14.6"
 
 any-promise@^1.0.0:
   version "1.3.0"
@@ -553,6 +597,11 @@ jiti@^1.18.2:
   resolved "https://registry.npmjs.org/jiti/-/jiti-1.20.0.tgz"
   integrity sha512-3TV69ZbrvV6U5DfQimop50jE9Dl6J8O1ja1dvBbMba/sZ3YBEQqJ2VZRoQPVnhlzjNtU1vaXRZVrVjU4qtm8yA==
 
+"js-tokens@^3.0.0 || ^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+  integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
+
 lilconfig@^2.0.5, lilconfig@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/lilconfig/-/lilconfig-2.1.0.tgz"
@@ -562,6 +611,13 @@ lines-and-columns@^1.1.6:
   version "1.2.4"
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
+
+loose-envify@^1.1.0:
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+  integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+  dependencies:
+    js-tokens "^3.0.0 || ^4.0.0"
 
 magic-string@^0.30.0:
   version "0.30.3"
@@ -724,6 +780,13 @@ queue-microtask@^1.2.2:
   resolved "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
+"react@^16.8.0 || ^17.0.0 || ^18.0.0", react@>=16.8:
+  version "18.2.0"
+  resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+  integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
+  dependencies:
+    loose-envify "^1.1.0"
+
 read-cache@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/read-cache/-/read-cache-1.0.0.tgz"
@@ -851,6 +914,11 @@ update-browserslist-db@^1.0.13:
     escalade "^3.1.1"
     picocolors "^1.0.0"
 
+use-sync-external-store@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz"
+  integrity sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
+
 util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
@@ -867,7 +935,30 @@ vite@^4.4.5:
   optionalDependencies:
     fsevents "~2.3.2"
 
+<<<<<<< HEAD
 vue@^3.3.4:
+=======
+vue-demi@>=0.14.6:
+  version "0.14.6"
+  resolved "https://registry.npmjs.org/vue-demi/-/vue-demi-0.14.6.tgz"
+  integrity sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==
+
+vue-router@^4.2.5:
+  version "4.2.5"
+  resolved "https://registry.npmjs.org/vue-router/-/vue-router-4.2.5.tgz"
+  integrity sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw==
+  dependencies:
+    "@vue/devtools-api" "^6.5.0"
+
+vue-zustand@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.npmjs.org/vue-zustand/-/vue-zustand-0.6.0.tgz"
+  integrity sha512-injGg2Nxcq7RBXe4n92LmIOcAP3DxqHr3w5uVhkV1BnCIChjztXfsWEX9k8IP3zb7EmHnDV5SW0XtxY6TQct2Q==
+  dependencies:
+    "@vueuse/core" "^10.1.2"
+
+"vue@^3.0.0-0 || ^2.6.0", vue@^3.2.0, vue@^3.2.25, vue@^3.3.4, vue@>=3, vue@>=3.2.0, vue@3.3.4:
+>>>>>>> 1d5eaf33041b8089182dc2465a9ca63aa43dd17f
   version "3.3.4"
   resolved "https://registry.npmjs.org/vue/-/vue-3.3.4.tgz"
   integrity sha512-VTyEYn3yvIeY1Py0WaYGZsXnz3y5UnGi62GjVEqvEGPl6nxbOrCXbVOTQWBEJUqAyTUk2uJ5JLVnYJ6ZzGbrSw==
@@ -887,3 +978,10 @@ yaml@^2.1.1:
   version "2.3.3"
   resolved "https://registry.npmjs.org/yaml/-/yaml-2.3.3.tgz"
   integrity sha512-zw0VAJxgeZ6+++/su5AFoqBbZbrEakwu+X0M5HmcwUiBL7AzcuPKjj5we4xfQLp78LkEMpD0cOnUhmgOVy3KdQ==
+
+zustand@^4.4.6, zustand@>=4.3.0:
+  version "4.4.6"
+  resolved "https://registry.npmjs.org/zustand/-/zustand-4.4.6.tgz"
+  integrity sha512-Rb16eW55gqL4W2XZpJh0fnrATxYEG3Apl2gfHTyDSE965x/zxslTikpNch0JgNjJA9zK6gEFW8Fl6d1rTZaqgg==
+  dependencies:
+    use-sync-external-store "1.2.0"
